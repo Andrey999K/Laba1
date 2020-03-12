@@ -1,0 +1,84 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  font-size: 20px;
+}
+
+.moscov {
+  font-size: 20px;
+  color: yellow;
+  width: 100vw;
+  height: 100vh;
+  background: url("/images/Country/kremlin.jpg") no-repeat center/cover;
+}
+
+.novosib {
+  font-size: 20px;
+  color: yellow;
+  width: 100vw;
+  height: 100vh;
+  background: url("/images/Country/reka-ob.jpg") no-repeat center/cover;
+}
+
+.krasno {
+  font-size: 20px;
+  color: yellow;
+  width: 100vw;
+  height: 100vh;
+  background: url("/images/Country/kommunalnyy-most.jpg") no-repeat center/cover;
+}
+
+.chon {
+  color: white;
+  background: url("/images/Country/janczy.jpg") no-repeat center/cover;
+}
+
+.container {
+  max-width: 550px;
+  width: 100%;
+  height: 100%;
+  margin-left: 10px;
+  z-index: 1;
+
+  h1,
+  p {
+    position: relative;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    opacity: 0.5;
+    z-index: 0;
+  }
+}
+
+.pek {
+  color: yellow;
+  background: url("/images/Country/velikaya-kitaiskaya-stena.jpg") no-repeat center/cover;
+}
+
+.chan {
+  color: yellow;
+  background: url("/images/Country/maxresdefault.jpg") no-repeat center/cover;
+}
+
+.osa {
+  color: yellow;
+  background: url("/images/Country/zamok-osaka.jpg") no-repeat center/cover;
+}
+
+.tok {
+  color: yellow;
+  background: url("/images/Country/tv-tokyo-skytree.jpg") no-repeat center/cover;
+}
+
+.sap {
+  color: yellow;
+  background: url("/images/Country/takinoue-park_1.jpg") no-repeat center/cover;
+}
